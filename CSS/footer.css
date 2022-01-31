@@ -1,0 +1,49 @@
+/* ------------------------------------- Footer starts here ------------------------------------------------------ */
+footer {
+  background-color: black;
+  /* background-color: lightpink; */
+  width: 100%;
+  height: auto;
+  /* display: flex; */
+}
+.footer-p1 a {
+  background-color: #15418c;
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+.footer-nasa-logo {
+  margin-top: 5px;
+  float: left;
+}
+.footer-p2 > p {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  color: white;
+}
+.footer-p3 > p {
+  margin-top: 0px;
+  color: white;
+}
+.footer-list {
+  clear: both;
+}
+.footer-list > ul {
+  list-style: none;
+}
+.footer-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+.footer-ul a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: #15418c;
+}
+
+/* ------------------------------------- Footer ends here ------------------------------------------------------ */

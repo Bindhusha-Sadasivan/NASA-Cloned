@@ -1,0 +1,223 @@
+html {
+  background-color: black;
+}
+section {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50%;
+  grid-template-areas:
+    "box1 box2 box2 box4"
+    "box5 box6 box7 box8";
+  gap: 10px;
+}
+
+/* -------------------------------------------- Box 1 starts here -------------------------------------------------- */
+.box1 {
+  background-image: url(/Images/nasa5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: lightblue; */
+  grid-area: box1;
+}
+.box1 > p {
+  position: relative;
+  top: 231px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box1-p1 {
+  color: white;
+  text-decoration: none;
+  background-color: #5d7fb9;
+  display: inline-block;
+  padding: 7px 5px;
+}
+.box1-p2 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 1 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 2 starts here -------------------------------------------------- */
+.box2 {
+  /* background-color: lightcoral; */
+  grid-area: box2;
+}
+/* -------------------------------------------- Box 2 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 3 starts here -------------------------------------------------- */
+.box3 {
+  background-image: url(/Images/nasa6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: lightcyan; */
+  grid-area: box2;
+}
+.box3 > p {
+  position: relative;
+  top: 255px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box3-p1 {
+  color: white;
+  text-decoration: none;
+  background-color: #5d7fb9;
+  display: inline-block;
+  padding: 7px 5px;
+}
+.box3-p2 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 3 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 4 starts here -------------------------------------------------- */
+.box4 {
+  background-image: url(/Images/nasa7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: lightgoldenrodyellow; */
+  grid-area: box4;
+}
+.box4 > p {
+  position: relative;
+  top: 255px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box4-p1 {
+  color: white;
+  text-decoration: none;
+  background-color: #5d7fb9;
+  display: inline-block;
+  padding: 7px 5px;
+}
+.box4-p2 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 4 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 5 starts here -------------------------------------------------- */
+.box5 {
+  background-image: url(/Images/nasa8.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: lightgray; */
+  grid-area: box5;
+}
+.box5 > p {
+  position: relative;
+  top: 221px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box5-p1 {
+  color: white;
+  text-decoration: none;
+  background-color: #5d7fb9;
+  display: inline-block;
+  padding: 7px 5px;
+}
+.box5-p2 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 5 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 6 starts here -------------------------------------------------- */
+.box6 {
+  background-image: url(/Images/nasa9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: lightgreen; */
+  grid-area: box6;
+}
+.box6 > p {
+  position: relative;
+  top: 221px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box6-p1 {
+  color: white;
+  text-decoration: none;
+  background-color: #5d7fb9;
+  display: inline-block;
+  padding: 7px 5px;
+}
+.box6-p2 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 6 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 7 starts here -------------------------------------------------- */
+.box7 {
+  background-image: url(/Images/nasa10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: lightpink; */
+  grid-area: box7;
+}
+.box7 > p {
+  position: relative;
+  top: 259px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box7-p1 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 7 ends here -------------------------------------------------- */
+
+/* -------------------------------------------- Box 8 starts here -------------------------------------------------- */
+.box8 {
+  background-image: url(/Images/nasa11.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: lightsalmon;
+  grid-area: box8;
+}
+.box8 > p {
+  position: relative;
+  top: 259px;
+  margin: 0px 0px;
+  font-size: 20px;
+}
+.box8-p1 {
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+  display: block;
+  padding: 7px 5px;
+}
+/* -------------------------------------------- Box 8 ends here -------------------------------------------------- */
